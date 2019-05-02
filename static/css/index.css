@@ -19,11 +19,11 @@ div.topic input {
 	font-size:20pt;
 	text-align: center;	
 	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: solid;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
+  background-repeat:no-repeat;
+  border: solid;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 
 div.topic {
@@ -31,11 +31,11 @@ div.topic {
 }
 
 div.topic button {
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    size: 20
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  size: 20
 }

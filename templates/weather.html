@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+  <title>weather</title>>
+  <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+  	<div class="data">
+  		<h1>{{ city }}</h1><br><br><br><br>
+  		<hr>
+      	<div id="weather-temp">
+        	{{ temp }} °C
+        	&nbsp;&nbsp;<img src="images/temp.png">
+      	</div>
+      	<hr>
+      	<div id="weather-description">
+        	{{ description }}
+        	&nbsp;&nbsp;<img src="images/sky.png">
+      	</div>
+      	<hr>
+      	<div id="wind-speed">
+        	{{ wind }}
+        	&nbsp;&nbsp;<img src="images/wind.png">
+      	</div>
+  	</div>
+  	<div id='back'>
+      	<p><a href="http://127.0.0.1:5000">New Search</a></p>
+  	</div>
+</body>
